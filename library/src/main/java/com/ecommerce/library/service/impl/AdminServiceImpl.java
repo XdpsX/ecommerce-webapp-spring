@@ -6,6 +6,7 @@ import com.ecommerce.library.repository.AdminRepository;
 import com.ecommerce.library.repository.RoleRepository;
 import com.ecommerce.library.service.AdminService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
